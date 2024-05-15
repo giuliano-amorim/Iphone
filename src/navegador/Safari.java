@@ -1,5 +1,6 @@
 package navegador;
-public class Safari {
+
+public class Safari implements Browser{
     public void exibirPagina(){
         System.out.println("Aperte o icone do Safari. PAGINA EXIBIDA!");
     }

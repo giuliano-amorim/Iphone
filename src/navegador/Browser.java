@@ -1,5 +1,7 @@
 package navegador;
 
-public class Browser {
-
+public interface Browser {
+    void exibirPagina();
+    void adicionarNovaAba();
+    void atualizarPagina(); 
 }
