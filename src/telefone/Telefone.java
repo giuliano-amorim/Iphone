@@ -1,6 +1,6 @@
-package aparelho;
+package telefone;
 
-public class AparelhoTelefonico {
+public class Telefone {
        public void ligar(){
         System.out.println("Ligando para o contato selecionado.");
        }
