@@ -1,5 +1,6 @@
-package ipod;
-public class ReprodutorMusical{
+package musica;
+
+public class Ipod implements ReprodutorMusical{
     public void tocar(){
         System.out.println("Selecionada musica, aperte o PLAY para iniciar. TOCANDO!");
     }
